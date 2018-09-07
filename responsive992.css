@@ -1,0 +1,606 @@
+@charset "UTF-8";
+
+
+
+
+
+@media (min-width: 992px) {
+
+
+
+p {
+	font-size: 20px;
+	font-weight: 400;
+	margin:0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+h1 {
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+	line-height: 0.95em;
+	font-size: 2.2em;
+}
+
+h2 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	line-height: 1em;
+	font-size: 3.5em;
+}
+
+h3 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-size: 2.1em;
+	line-height: 1.3em;
+}
+
+
+h4 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+}
+
+.dot {
+	height: 15px;
+	width: 15px;
+}
+
+
+.titulo {display: none}
+
+
+.titulo992{
+	display: block;
+	position: absolute;
+	margin: auto auto;
+	top: 25vh;
+	width: 100%;
+	text-align: center;
+}
+
+.mainlogoclean {
+	width: 350px;
+	padding-bottom: 30px;
+}
+
+    
+.bkg1 {
+     background: url(images/bkg1992.jpg) no-repeat center center;
+     background-size: cover;
+     background-position: center center;
+       top: 0;
+     bottom: 0;
+     height: 100vh;
+     z-index: -10;   
+
+}
+
+.bkg2 {
+     background: url(images/bkg2992.jpg) no-repeat center center;
+     background-size: cover;
+     background-position: center center;
+       top: 0;
+     bottom: 0;
+     height: 100vh;
+     z-index: -10;   
+
+}
+
+
+.bkg3 {
+     background: url(images/bkg3992.jpg) no-repeat center center;
+     background-size: cover;
+     background-position: center center;
+       top: 0;
+     bottom: 0;
+     height: 100vh;
+     z-index: -10;   
+
+}
+
+
+
+.descripte {
+	width: 400px;
+	text-align: center;
+	display: inline-block;
+	color: white;
+}
+
+
+.tes1 p {
+	font-size: 22px;
+}
+
+.tes2 p {
+	font-size: 22px;
+}
+
+.tes3 p {
+	font-size: 22px;
+}
+
+.tes4 p {
+	font-size: 22px;
+}
+
+
+
+
+
+.flechaderecha992 {
+	display: block;
+	width: 380px;
+	margin: 0 20vw 0 auto;
+}
+.flechaizquierda992 {
+	display: block;
+	width: 380px;
+	margin: 0 auto 0 20vw;
+}
+
+.flecha-izquierda-arriba-992 {
+	display: block;
+	width: 380px;
+	margin: 0 auto 0 20vw;
+}
+
+.flecha-derecha-abajo-992 {
+	display: block;
+	width: 380px;
+	margin: 0 20vw 0 auto;
+}
+
+
+
+
+.tes1 {
+	background-image: url('images/fondo41.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 1100px;
+	position: relative;
+	padding-top: 180px;
+	text-align: center;
+}
+
+.flecha1 {
+	display: none;
+}
+
+
+
+.flecha2 {
+	display: none;
+}
+
+
+
+.earlgrey {
+	width: 380px;
+	display: block;
+	margin: 0 auto;
+}
+
+.frutales {
+	width: 410px;
+	padding-top: 40px;
+}
+
+
+
+
+.tes2 {
+	background-image: url('images/fondo42.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 1100px;
+	position: relative;
+	padding-top: 180px;
+}
+
+.flecha3 {
+	display: none;
+}
+
+.flecha4 {
+	display: none;
+}
+
+.verde {
+	width: 380px;
+}
+
+.roiboos {
+	width: 350px;
+}
+
+
+
+
+.tes3 {
+	background-image: url('images/fondo43.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 1100px;
+	position: relative;
+	padding-top: 180px;
+}
+
+.flecha5 {
+	display: none;
+}
+
+.flecha6 {
+	display: none;
+}
+
+.chai {
+width: 300px;
+}
+
+.hoja {
+width: 400px;
+}
+
+
+.tes4 {
+	background-image: url('images/fondo44.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 1100px;
+	position: relative;
+	padding-top: 180px;
+}
+
+.flecha7 {
+	display: none;
+}
+
+.flecha8 {
+	display: none;
+}
+
+.infusion {
+width: 380px;
+}
+
+.gold {
+width: 310px;
+}
+
+
+
+
+
+/*CONOCENOS*/
+
+.mundi-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+.conocecontent {
+    padding: 90px 40px 0 40px;
+    width: 40vw;
+}
+
+.section-mundi {
+	padding: 90px 40px 0 0;
+}
+
+.mundi {
+	margin: 0;
+	width: 45vw;
+}
+
+
+
+
+/*TIMELINE*/
+
+
+.grid-containerhist {
+  display: grid;
+  grid-template-areas:
+    'number1 number2 number3 number4 number5 number6'
+    'arrow arrow arrow arrow arrow arrow'
+    'content1 content2 content3 content4 content5 content6';
+  grid-gap: auto;
+  background-color: none;
+  padding: 40px 40px 0 40px;
+}
+
+.grid-containerhist p{
+	font-size: 1.6em;
+	text-align: left;
+}
+
+.griditemnumber {
+	width: 150px;
+}
+
+.flechatimelineres {
+	display: none;
+}
+
+.flechatimeline {
+	display: inline-block;
+}
+
+
+/*PREMIOS*/
+.grid-premios {
+	display: none;
+}
+
+.premios-wide {
+	display: block;
+	padding-top: 40px;
+}
+
+.grid-premios-wide {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 0px 0px;
+  background-color: none;
+  text-align: center;
+  width: 100%;
+  padding: 0 15vw 0 15vw;
+}
+
+.itempremios-wide {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.itempremios-wide h4 {
+    font-size: 1.6em;
+}
+
+.badge {
+	width: 90px;
+}
+
+
+
+
+
+
+
+/*CONOCE MAS SOBRE*/
+
+
+.logomd {
+    height: 120px;
+    padding-bottom: 20px;
+}
+
+.logoak {
+    height: 110px;
+    padding-bottom: 20px;
+}
+
+.linkmarcas {
+	padding: 0 30px 0 30px;
+}
+
+.linkmarcas p {
+	font-weight: 700;
+}
+
+.logomarca {
+	height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+/*NUESTROS TE*/
+
+.header-nuestrote{
+	padding: 90px 20px 0 50px;
+	width: 50vw;
+}
+
+.content-nuestrostes {
+	padding-top: 40px;
+}
+
+.grid-nuestrostes {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	grid-gap: 40px;
+	padding: 0 50px 0 50px;
+}
+
+
+
+.fondocatalogo {
+	background-image: url('images/portada-catalogo-992.jpg');
+	background-size: cover;
+	height: 700px;
+	text-align: center;
+}
+
+.catalogo-content {
+	padding: 200px 0 0 0;
+}
+
+/*IMAGENES FLEXSLIDER*/
+
+.fotos-tes {
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+}
+
+.tenegro1 {
+	background-image: url(images/te-negro-1-992.jpg);
+
+}
+
+.tenegro2 {
+	background-image: url(images/te-negro-2-992.jpg);
+}
+
+.teverde1 {
+	background-image: url(images/te-verde-1-992.jpg);
+}
+
+.teverde2 {
+	background-image: url(images/te-verde-2-992.jpg);
+}
+
+.tegold1 {
+	background-image: url(images/te-gold-1-992.jpg);
+}
+
+.tegold2 {
+	background-image: url(images/te-gold-2-992.jpg);
+}
+
+.tefrutal1 {
+	background-image: url(images/te-frutal-1-992.jpg);
+}
+
+.tefrutal2 {
+	background-image: url(images/te-frutal-2-992.jpg);
+}
+
+.teinfusion1 {
+	background-image: url(images/te-infusion-1-992.jpg);
+}
+
+.teinfusion2 {
+	background-image: url(images/te-infusion-2-992.jpg);
+}
+
+.tepiramide1 {
+	background-image: url(images/te-piramide-1-992.jpg);
+}
+
+.tepiramide2 {
+	background-image: url(images/te-piramide-2-992.jpg);
+}
+
+.tehojas1 {
+	background-image: url(images/te-hojas-1-992.jpg);
+}
+
+.tehojas2 {
+	background-image: url(images/te-hojas-2-992.jpg);
+}
+
+.teregalo1 {
+	background-image: url(images/te-regalo-1-992.jpg);
+}
+
+.teregalo2 {
+	background-image: url(images/te-regalo-2-992.jpg);
+}
+
+.teregalo3 {
+	background-image: url(images/te-regalo-3-992.jpg);
+}
+
+.teaccesorio1 {
+	background-image: url(images/te-accesorio-1-992.jpg);
+}
+
+.teaccesorio2 {
+	background-image: url(images/te-accesorio-2-992.jpg);
+}
+
+.teaccesorio3 {
+	background-image: url(images/te-accesorio-3-992.jpg);
+}
+
+.teaccesorio4 {
+	background-image: url(images/te-accesorio-4-992.jpg);
+}
+
+.teaccesorio5 {
+	background-image: url(images/te-accesorio-5-992.jpg);
+}
+
+.teaccesorio6 {
+	background-image: url(images/te-accesorio-6-992.jpg);
+}
+
+
+
+
+
+
+
+
+/*DONDE ESTAMOS*/
+
+.maptiendacontent {
+	background-image: url('images/maptiendas992.png');
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 100vh;
+}
+
+.map-text {
+    padding: 130px 20px 30px 50px;
+    width: 45vw;
+}
+
+.tiendas-container {
+	padding: 70px 0px 0 0px;
+}
+
+.grid-tiendas  {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	grid-row-gap: 20px;
+	padding: 0 30px 0 30px;
+}
+
+.grid-tiendas-item {
+	text-align: center;
+	padding: 0 30px 0 30px;
+}
+
+.lista-tiendas {
+	padding: 0 0 0 0;
+}
+
+.container-links-tiendas {
+	text-align: center;
+	padding: 120px 30px 40px 30px;
+}
+
+.grid-link-tiendas {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-row-gap: 40px;
+	vertical-align: middle;
+}
+
+
+}

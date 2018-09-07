@@ -1,0 +1,399 @@
+@charset "UTF-8";
+
+
+
+
+
+@media (min-width: 768px) {
+    
+p {
+	font-size: 18px;
+	font-weight: 400;
+	margin:0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+h1 {
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+	line-height: 0.95em;
+	font-size: 2.2em;
+}
+
+h2 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	line-height: 1em;
+	font-size: 2.8em;
+}
+
+h3 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.9em;
+}
+
+h4 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+}
+
+.titulo{
+	position: absolute;
+	
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+
+.bkg1 {
+     background: url(images/bkg1768.jpg) no-repeat center center;
+     background-size: cover;
+     background-position: center center;
+       top: 0;
+     bottom: 0;
+     height: 100vh;
+     z-index: -10;   
+
+}
+
+.bkg2 {
+     background: url(images/bkg2768.jpg) no-repeat center center;
+     background-size: cover;
+     background-position: center center;
+       top: 0;
+     bottom: 0;
+     height: 100vh;
+     z-index: -10;   
+
+}
+
+.bkg3 {
+     background: url(images/bkg3768.jpg) no-repeat center center;
+     background-size: cover;
+     background-position: center center;
+       top: 0;
+     bottom: 0;
+     height: 100vh;
+     z-index: -10;   
+
+}
+
+
+.tes1 p {
+	font-size: 20px;
+}
+
+.tes2 p {
+	font-size: 20px;
+}
+
+.tes3 p {
+	font-size: 20px;
+}
+
+.tes4 p {
+	font-size: 20px;
+}
+
+.tes1 {
+	background-image: url('images/fondo31.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 870px;
+	position: relative;
+	padding-top: 150px;
+}
+
+.flecha1 {
+	width: 150px;
+	position: absolute;
+	right: 20px;
+	top: 140px;
+}
+
+.flecha2 {
+	width: 170px;
+	position: absolute;
+	left: 30px;
+	top: 480px;
+}
+
+.earlgrey {
+	width: 300px;
+}
+
+.frutales {
+	width: 330px;
+}
+
+
+
+
+
+
+
+
+
+.tes2 {
+	background-image: url('images/fondo32.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 870px;
+	position: relative;
+	padding-top: 170px;
+}
+
+.flecha3{
+     width: 160px;
+     position: absolute;
+     top: 180px;
+     left: 30px;
+}
+
+.flecha4 {
+     width: 180px;
+     position: absolute;
+     top: 410px;
+     right: 30px;
+}
+
+.verde {
+	width: 320px;
+}
+
+.roiboos {
+	width: 350px;
+}
+
+
+
+
+
+
+
+
+
+.tes3 {
+	background-image: url('images/fondo33.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 870px;
+	position: relative;
+	padding-top: 240px;
+}
+
+.flecha5 {
+     width: 190px;
+     position: absolute;
+     top: 160px;
+     left: 40px;
+}
+
+.flecha6 {
+    width: 170px;
+    position: absolute;
+    top: 430px;
+    right: 20px;
+}
+
+.chai {
+width: 300px;
+}
+
+.hoja {
+width: 350px;
+}
+
+
+
+
+
+
+.tes4 {
+	background-image: url('images/fondo34.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 870px;
+	position: relative;
+	padding-top: 250px;
+}
+
+.flecha7 {
+	width: 170px;
+	position: absolute;
+	right: 30px;
+	top: 240px;
+}
+
+.flecha8 {
+	width: 150px;
+	position: absolute;
+	bottom: 50px;
+	left: 30px;
+}
+
+.infusion {
+width: 300px;
+}
+
+.gold {
+width: 300px;
+}
+
+
+
+/*CONOCENOS*/
+
+
+.fondoconoce1 {
+	background-image: url('images/fondoresfull768.jpg');
+	background-size: cover;
+	background-position: center center;	
+	position: relative;
+}
+
+
+.mundi {
+	width: 500px;
+	position: relative;
+	margin-top: 30px;
+	}
+
+
+
+.conocecontent {
+    padding: 60px 40px 0 40px;
+}
+
+.grid-containerhist {
+	padding: 40px 40px 0 30px;
+}
+
+.grid-containerhist p{
+	font-size: 1.4em;
+	text-align: left;
+}
+
+
+.flechatimelineres {
+	height: 670px;
+}
+
+
+.grid-premios {
+  grid-gap: 20px 0px;
+  padding: 0 0 0 90px;
+}
+
+.itempremios h4 {
+    font-size: 1.6em;
+
+	}
+
+
+
+
+/*NUESTRO TE*/
+
+.fondo-nuestrostes {
+	background-image: url('images/fondoresfull768.jpg');
+	background-size: cover;
+	background-position: center center;
+}
+
+.grid-nuestrostes {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	width: 100%;
+	grid-gap: 40px;
+	padding: 0 20px 0 20px;
+}
+
+.grid-item-nuestrostes {
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+
+/*IMAGENES FLEXSLIDER*/
+
+.fotos-tes {
+	background-size: cover;
+	height: 400px;
+	width: 100%;
+}
+
+
+
+
+
+.imgtitulonuestrote {
+	height: 70px;
+	width: auto;
+	position: absolute;
+	left: 15px;
+	z-index: 5;
+}
+
+.fondocatalogo {
+	background-image: url('images/portada-catalogo-768.jpg');
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+}
+
+.catalogo-content h4 {
+    font-size: 1.3em;
+}
+
+
+
+
+/*DONDE ESTAMOS*/
+
+.maptiendacontent {
+	background-image: url('images/maptiendas768.png');
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 980px;
+}
+
+.map-text {
+    padding: 80px 20px 30px 30px;
+}
+
+.lista-tiendas {
+	padding: 0 0 0 30vw;
+}
+
+.grid-tiendas-item {
+	padding: 0 30px 0 30px;
+}
+
+
+.grid-link-tiendas {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+
+
+
+
+
+}

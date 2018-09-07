@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+
+
+
+
+@media (min-width: 1440px) {
+
+
+
+
+p {
+	font-size: 2em;
+	font-weight: 400;
+	margin:0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+h1 {
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+	line-height: 0.95em;
+	font-size: 5em;
+}
+
+h2 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	line-height: auto;
+	font-size: 4.25em;
+}
+
+h3 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-size: 3.75em;
+	line-height: auto;
+}
+
+
+h4 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-size: 3.125em;
+}
+
+
+
+
+
+/*HOME*/
+
+.descripte {
+	width: 600px;
+}
+
+.tes1 p {
+	font-size: 26px;
+}
+
+.tes2 p {
+	font-size: 26px;
+}
+
+.tes3 p {
+	font-size: 26px;
+}
+
+.tes4 p {
+	font-size: 26px;
+}
+
+
+.flechaderecha992 {
+	display: block;
+	width: 380px;
+	margin: 0 30vw 0 auto;
+}
+.flechaizquierda992 {
+	display: block;
+	width: 380px;
+	margin: 0 auto 0 30vw;
+}
+
+.flecha-izquierda-arriba-992 {
+	display: block;
+	width: 380px;
+	margin: 0 auto 0 30vw;
+}
+
+.flecha-derecha-abajo-992 {
+	display: block;
+	width: 380px;
+	margin: 0 30vw 0 auto;
+}
+
+
+
+
+
+
+/*CONOCENOS*/
+
+
+
+.fondoconoce1 {
+	background-image: url('images/fondoresfull1440.jpg');
+}
+
+.conocecontent {
+    padding: 100px 40px 0 80px;
+    width: 35vw;
+}
+
+.conocecontent-header {
+    padding: 25vh 40px 0 0px;
+    width: 35vw;
+}
+
+.section-mundi {
+	padding: 100px 40px 0 0;
+}
+
+.mundi {
+	margin: 0;
+	width: 45vw;
+}
+
+/*TIMELINE*/
+
+
+.grid-containerhist {
+  padding: 40px 80px 0 80px;
+  grid-gap: 30px 30px;
+}
+
+/*PREMIOS*/
+
+.grid-premios-wide {
+  padding: 0 20vw 0 20vw;
+}
+
+.badge {
+	width: 120px;
+}
+
+
+/*CONOCE MAS*/
+
+.logomd {
+    height: 180px;
+    padding-bottom: 20px;
+}
+
+.logoak {
+    height: 190px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*NUESTRO TE*/
+
+
+.fondo-nuestrostes {
+	background-image: url('images/fondoresfull1440.jpg');
+}
+
+
+.header-nuestrote{
+	padding: 120px 20px 0 70px;
+	width: 50vw;
+}
+
+.header-nuestrote h3 {
+	font-size: 3em;
+}
+
+.content-nuestrostes {
+	padding-top: 120px;
+}
+
+.grid-nuestrostes {
+	padding: 0 70px 0 70px;
+}
+
+.fondocatalogo {
+	background-image: url('images/portada-catalogo-1440.jpg');
+	background-size: cover;
+	height: 800px;
+	text-align: center;
+}
+
+.catalogo-content {
+	padding: 300px 0 0 0;
+}
+
+
+.catalogoicon {
+	width: 140px;
+	transition: width 1s;
+}
+
+.catalogoicon:hover {
+	width: 170px;
+	transition: width 1s;
+}
+
+.fotos-tes {
+	background-size: cover;
+	height: 380px;
+	width: 100%;
+}
+
+
+
+
+
+
+
+/*DONDE ESTAMOS*/
+
+.maptiendacontent {
+	background-image: url('images/maptiendas1200.png');
+	background-size: cover;
+	background-position: center center;
+	width: auto;
+	height: 100vh;
+}
+
+
+.map-text {
+    padding: 25vh 20px 30px 80px;
+    width: 35vw;
+}
+
+
+.grid-tiendas  {
+	grid-row-gap: 20px;
+	padding: 0 70px 0 70px;
+}
+
+.grid-tiendas-item {
+	text-align: center;
+	padding: 0 80px 0 80px;
+}
+
+.grid-tiendas-item p {
+	font-weight: 700;
+}
+
+
+
+}

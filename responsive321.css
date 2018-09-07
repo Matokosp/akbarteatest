@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+@media (max-width: 321px) {
+
+
+
+.titulo{
+	position: absolute;
+	margin-left: 10%;
+	top: 25%;
+	width: 250px;
+}
+
+.mainlogoclean {
+	width: 200px;
+	padding-bottom: 30px;
+}
+
+    
+.grid-containerhist {
+	grid-gap: 30px 1px;
+	padding: 2px;
+}
+
+.grid-containerhist p{
+	font-size: 1em;
+	text-align: left;
+}
+
+.flechatimelineres {
+	height: 440px;
+}
+
+
+
+.section-mundi {
+	text-align: center;
+}
+
+.mundi {
+	width: 280px;
+	position: relative;
+}
+
+.maptiendacontent {
+	height: 500px;
+}
+
+.map-text p {
+    font-size: 12px;
+}
+
+.map-text h3 {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.lista-tiendas li {
+	font-size: 0.65em;
+}
+
+.lista-tiendas b {
+	font-size: 16px;
+}
+
+}
