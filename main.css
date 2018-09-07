@@ -1,0 +1,966 @@
+@charset "UTF-8";
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin:0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 400;
+	margin:0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+	color: white;
+}
+
+h1 {
+	font-weight: 900;
+	font-family: 'Lato', sans-serif;
+	line-height: 0.95em;
+	font-size: 2.2em;
+}
+
+h2 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	line-height: 1em;
+	font-size: 2.2em;
+}
+
+h3 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+}
+
+h4 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-size: 1.1em;
+}
+
+h5 {
+	font-weight: 700;
+	font-family: 'Lato', sans-serif;
+	font-size: 0.9em;
+}
+
+ul {
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0;
+}
+
+li  {
+	text-decoration: none;
+}
+
+
+
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 100%;
+  position: relative;
+  margin: auto;
+  background-color: black;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+  background-color: none;
+  border: solid;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  text-align: center;
+}
+
+.dots {
+	position: absolute;
+	top: 90%;
+margin: auto;
+left: 0;
+right: 0;
+text-align: center;
+}
+
+.active {
+  background-color: #fff;
+}
+
+.w3-animate-fading {
+    animation: fading 6s infinite;
+}
+
+@keyframes fading {
+	0% {
+		opacity: 0.2;
+	}
+
+	5% {
+		opacity: 1;
+	}
+
+	95% {
+		opacity: 1;
+	}
+
+	100% {
+		opacity: 0.2;
+	}
+}
+
+
+
+.titulo{
+	position: absolute;
+	margin-left: 20%;
+	top: 30%;
+	width: 250px;
+}
+
+.titulo992 {
+	display: none;
+}
+
+.mainlogoclean {
+	width: 200px;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+.bkgimg {
+	width: 100%;
+}
+
+.bkg1 {
+     background: url(images/bkg1.jpg) no-repeat center center;
+     background-size: cover;
+     background-position: center center;
+       top: 0;
+     bottom: 0;
+     height: 100vh;
+     z-index: -10;   
+
+}
+
+.bkg2 {
+     background: url(images/bkg2.jpg) no-repeat center center;
+     background-size: cover;
+     background-position: center center;
+       top: 0;
+     bottom: 0;
+     height: 100vh;
+     z-index: -10;   
+
+}
+
+.bkg3 {
+     background: url(images/bkg3.jpg) no-repeat center center;
+     background-size: cover;
+     background-position: center center;
+       top: 0;
+     bottom: 0;
+     height: 100vh;
+     z-index: -10;   
+
+}
+
+
+
+
+
+.contgridtes {
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: none;
+	background-color: none;
+	padding: 0px;
+	grid-gap: 0px;
+}
+
+
+.grid-item {
+  background-color: none;
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.descripte {
+	width: 80%;
+	text-align: center;
+	display: inline-block;
+	color: white;
+}
+
+
+
+.flechaderecha992 {
+	display: none;
+}
+
+.flechaizquierda992 {
+	display: none;
+}
+
+.flecha-izquierda-arriba-992 {
+	display: none;
+}
+
+.flecha-derecha-abajo-992 {
+	display: none;
+}
+
+
+
+
+
+
+
+
+.tes1 {
+	background-image: url('images/fondo21.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 460px;
+	position: relative;
+	padding-top: 40px;
+}
+
+.flecha1 {
+	width: 80px;
+	position: absolute;
+	right: 20px;
+	top: 60px;
+}
+
+
+.flecha2 {
+	width: 110px;
+	position: absolute;
+	left: 30px;
+	top: 350px;
+}
+
+.earlgrey {
+	width: 200px;
+}
+
+.frutales {
+	width: 230px;
+}
+
+
+
+
+
+
+
+.tes2 {
+	background-image: url('images/fondo22.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 460px;
+	position: relative;
+	padding-top: 40px;
+}
+
+.flecha3{
+     width: 130px;
+     position: absolute;
+     top: 10px;
+     left: 30px;
+}
+
+.flecha4 {
+     width: 150px;
+     position: absolute;
+     top: 210px;
+     right: 30px;
+}
+
+.verde {
+	width: 220px;
+}
+
+.roiboos {
+	width: 200px;
+}
+
+
+
+
+
+
+
+.tes3 {
+	background-image: url('images/fondo23.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 460px;
+	position: relative;
+	padding-top: 40px;
+}
+
+.flecha5 {
+     width: 110px;
+     position: absolute;
+     top: 10px;
+     left: 20px;
+}
+
+.flecha6 {
+    width: 120px;
+    position: absolute;
+    top: 230px;
+    right: 30px;
+}
+
+.chai {
+width: 200px;
+}
+
+.hoja {
+width: 250px;
+}
+
+
+
+
+
+
+.tes4 {
+	background-image: url('images/fondo24.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: 460px;
+	position: relative;
+	padding-top: 50px;
+}
+
+.flecha7 {
+	width: 120px;
+	position: absolute;
+	right: 30px;
+	top: 40px;
+}
+
+.flecha8 {
+	width: 110px;
+	position: absolute;
+	bottom: 30px;
+	left: 20px;
+}
+
+.infusion {
+width: 200px;
+}
+
+.gold {
+width: 200px;
+}
+
+
+
+
+
+
+/*
+CONOCENOS*/
+
+
+
+.fondoconoce1 {
+	background-image: url('images/fondoresfull.jpg');
+	background-size: cover;
+	background-position: center center;
+	
+	position: relative;
+}
+
+
+.section-mundi {
+	text-align: center;
+}
+
+.mundi {
+	width: 300px;
+	position: relative;
+	margin-top: 30px;
+	}
+
+
+.conocecontent {
+	padding-top: 60px;
+	padding-left: 30px;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*TIMELINE DEL MAL*/
+
+.item1 { grid-area: number1; }
+.item2 { grid-area: number2; }
+.item3 { grid-area: number3; }
+.item4 { grid-area: number4; }
+.item5 { grid-area: number5; }
+.item6 { grid-area: number6; }
+.item7 { grid-area: arrow; }
+.item8 { grid-area: content1; }
+.item9 { grid-area: content2; }
+.item10 { grid-area: content3; }
+.item11 { grid-area: content4; }
+.item12 { grid-area: content5; }
+.item13 { grid-area: content6; }
+
+
+.grid-containerhist {
+  display: grid;
+  grid-template-areas:
+    'number1 arrow content1 content1 content1'
+    'number2 arrow content2 content2 content2'
+    'number3 arrow content3 content3 content3'
+    'number4 arrow content4 content4 content4'
+    'number5 arrow content5 content5 content5'
+    'number6 arrow content6 content6 content6';
+  grid-gap: 40px 1px;
+  background-color: none;
+  padding: 40px 10px 0 10px;
+}
+
+.grid-containerhist > div {
+  background-color: none;
+  text-align: center;
+  padding: 0px 0;
+  font-size: 12px;
+}
+
+.grid-containerhist p{
+	font-size: 1.1em;
+	text-align: left;
+}
+
+.griditemnumber {
+	width: 100%;
+}
+
+.flechatimelineres {
+	height: 490px;
+}
+
+.flechatiemline {
+	display: none;
+}
+
+
+
+
+
+
+
+
+/*PREMIOS Y CERTIFICACIONES*/
+
+/*
+.grid-premios {
+  display: grid;
+  grid-template-areas:
+    'badge descrip1 descrip1'
+    'badge2 descrip2 descrip2'
+    'badge3 descrip3 descrip3';
+  grid-gap: 40px 1px;
+  background-color: none;
+  padding: 40px 10px 0 10px;
+}*/
+
+.grid-premios {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px 0px;
+  background-color: none;
+  text-align: left;
+}
+
+.premios-wide {
+	display: none;
+}
+
+
+.badge {
+	width: 80px;
+}
+
+
+
+
+/*CONOCE MAS SOBRE*/
+
+.centromarcas {
+	text-align: center;
+	padding-bottom: 80px;
+}
+
+.linkmarcas {
+	display: inline-block;
+	margin: 10px;
+}
+
+.logomd {
+    height: 80px;
+    padding-right: 10px;
+}
+
+.logoak {
+    height: 70px;
+    padding-left: 10px;
+}
+
+.linkmarcas p {
+	font-weight: 700;
+}
+
+.logomarca {
+	height: 70px;
+}
+
+
+
+
+
+/*PAGINA NUESTRO TE*/
+
+.fondo-nuestrostes {
+	background-image: url('images/fondoresfull.jpg');
+	background-size: contain;
+	background-position: center center;
+}
+
+.header-nuestrote{
+	padding: 100px 20px 0 30px;
+}
+
+.content-nuestrostes {
+	padding-top: 70px;
+}
+
+
+.titulo-nuestrostes {
+	display: block;
+	height: 50px;
+	width: 100%;
+	background-color: #2b2b2b;
+	vertical-align: middle;
+}
+
+.titulo-nuestrostes h3 {
+	font-size: 1.1em;
+	padding-top: 2px;
+}
+
+
+.imgtitulonuestrote {
+	height: 70px;
+	width: auto;
+	position: absolute;
+	left: 15px;
+	z-index: 99;
+}
+
+.inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+
+.grid-nuestrostes {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	width: 100%;
+	grid-row-gap: 70px;
+}
+
+.grid-item-nuestrostes {
+	width: 100%;
+	
+	text-align: center;
+}
+
+
+
+
+
+
+/*IMAGENES FLEXSLIDER*/
+
+.fotos-tes {
+	background-size: cover;
+	height: 500px;
+	width: 100%;
+}
+
+.tenegro1 {
+	background-image: url(images/te-negro-1.jpg);
+
+}
+
+.tenegro2 {
+	background-image: url(images/te-negro-2.jpg);
+}
+
+.teverde1 {
+	background-image: url(images/te-verde-1.jpg);
+}
+
+.teverde2 {
+	background-image: url(images/te-verde-2.jpg);
+}
+
+.tegold1 {
+	background-image: url(images/te-gold-1.jpg);
+}
+
+.tegold2 {
+	background-image: url(images/te-gold-2.jpg);
+}
+
+.tefrutal1 {
+	background-image: url(images/te-frutal-1.jpg);
+}
+
+.tefrutal2 {
+	background-image: url(images/te-frutal-2.jpg);
+}
+
+.teinfusion1 {
+	background-image: url(images/te-infusion-1.jpg);
+}
+
+.teinfusion2 {
+	background-image: url(images/te-infusion-2.jpg);
+}
+
+.tepiramide1 {
+	background-image: url(images/te-piramide-1.jpg);
+}
+
+.tepiramide2 {
+	background-image: url(images/te-piramide-2.jpg);
+}
+
+.tehojas1 {
+	background-image: url(images/te-hojas-1.jpg);
+}
+
+.tehojas2 {
+	background-image: url(images/te-hojas-2.jpg);
+}
+
+.teregalo1 {
+	background-image: url(images/te-regalo-1.jpg);
+}
+
+.teregalo2 {
+	background-image: url(images/te-regalo-2.jpg);
+}
+
+.teregalo3 {
+	background-image: url(images/te-regalo-3.jpg);
+}
+
+.teaccesorio1 {
+	background-image: url(images/te-accesorio-1.jpg);
+}
+
+.teaccesorio2 {
+	background-image: url(images/te-accesorio-2.jpg);
+}
+
+.teaccesorio3 {
+	background-image: url(images/te-accesorio-3.jpg);
+}
+
+.teaccesorio4 {
+	background-image: url(images/te-accesorio-4.jpg);
+}
+
+.teaccesorio5 {
+	background-image: url(images/te-accesorio-5.jpg);
+}
+
+.teaccesorio6 {
+	background-image: url(images/te-accesorio-6.jpg);
+}
+
+
+
+
+
+
+
+
+
+.flex-nav-prev {
+	display: none;
+}
+
+.flex-nav-next {
+	display: none;
+}
+
+.container-catalogo {
+	padding: 60px 0 30px 0;
+}
+
+.fondocatalogo {
+	background-image: url('images/portada-catalogo.jpg');
+	background-size: cover;
+	height: 500px;
+	text-align: center;
+}
+
+.catalogo-content {
+	padding: 140px 0 0 0;
+}
+
+.catalogoicon {
+	width: 110px;
+	transition: width 1s;
+}
+
+
+
+
+/*DONDE ESTAMOS*/
+
+.map-text {
+    padding: 50px 20px 30px 30px;
+}
+
+
+
+.maptiendacontent {
+	background-image: url('images/maptiendas.png');
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 520px;
+}
+
+.maptiendasimg {
+	position: absolute;
+	padding: 50px 0 0 0;
+	width: 100%;
+}
+
+
+.grid-tiendas  {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-row-gap: 60px;
+}
+
+.tiendas-container {
+	padding: 70px 15px 0 15px;
+}
+
+.grid-tiendas-item {
+	text-align: center;
+}
+
+.grid-tiendas-item p {
+	text-align: left;
+	font-size: 1.1em;
+	display: inline-block;
+	vertical-align: middle;
+	padding: 0 0 0 20px;
+}
+
+.logotiendas {
+	width: 190px;
+}
+
+.lista-tiendas {
+	list-style-type: none;
+	text-align: left;
+	padding: 0 0 0 20px;
+}
+
+.lista-tiendas li {
+	padding-top: 20px;
+	font-size: 0.9em;
+}
+
+.lista-tiendas b {
+	font-size: 18px;
+}
+
+.icon-tiendas  {
+	width: 25px;
+}
+
+
+.container-links-tiendas {
+	padding: 0 30px 40px 30px;
+}
+
+.grid-link-tiendas {
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.logo-tiendas {
+	width: 110px;
+}
+
+.logo-largo {
+	width: 250px;
+	vertical-align: middle;
+}
+
+
+
+.contactate {
+	text-align: center;
+	padding: 70px 0 100px 0;
+}
+
+
+.elementos-contacto  {
+	display: block;
+	padding-top: 20px;
+}
+
+.mail-icon {
+	width: 150px;
+}
+
+
+
+
+
+
+
+
+/*ARROW BOUNCE*/
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+
+.i {
+  display: block;
+  color: #fff;
+  width: 40px;
+}
+.arrow {
+	z-index: 99;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -14px;
+  width: 10px;
+  height: 60px; /*change with size of arrow to make sit on bottom */
+/*   background-image: url(); */
+/*   background-size: contain; */
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
