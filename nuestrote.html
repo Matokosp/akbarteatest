@@ -64,7 +64,7 @@
 </nav>
 
 
-
+<div id="top"></div>
 
 
 <div class="fondo-nuestrostes">
@@ -349,6 +349,7 @@
 
 
 <div class="container-catalogo">
+
     <div class="fondocatalogo">
         <div class="catalogo-content">
         <a target="_blank" href="https://drive.google.com/file/d/18iroLdsmJNdT1_d6I0fremUyqFzHuYH0/view?usp=sharing"><img class="catalogoicon" src="images/catalogoicon.png"></a>
@@ -356,8 +357,15 @@
         <br>
         <a target="_blank" href="https://drive.google.com/file/d/18iroLdsmJNdT1_d6I0fremUyqFzHuYH0/view?usp=sharing"><h4><i>Cotiza aquí tus productos</i></h4></a>
         </div>
+      
     </div>
     
+
+                        <a href="#top">
+                        <section class="back-top-catalogo">
+                          <h4>UP</h4>
+                        </section>
+                    </a>
 </div>
 
 
@@ -389,8 +397,8 @@
        <p>+569 84487688</p>
        <h4>By PMD SA.</h4>
 </div>
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
 <!-- SCRIPT MENU -->
 
@@ -421,8 +429,10 @@ $(document).ready(function(){
     $(function(){
       SyntaxHighlighter.all();
     });
+
     $(window).load(function(){
       $('.flexslider').flexslider({
+        slideshow: false,
         animation: "slide",
         start: function(slider){
           $('body').removeClass('loading');

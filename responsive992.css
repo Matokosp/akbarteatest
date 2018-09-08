@@ -51,6 +51,42 @@ h4 {
 }
 
 
+.back-top {
+	background-color: rgba(250,250,250,0.8);
+	color: #000;
+	position: absolute;
+	right: 50px;
+	bottom: 40px;
+	z-index: 99;
+	padding: 0px 20px 0px 20px;
+	border-radius: 50px;
+}
+
+.back-top-catalogo {
+	background-color: rgba(250,250,250,0.8);
+	color: #000;
+	right: 30px;
+	bottom: 20px;
+	z-index: 99;
+	padding: 2px 15px 2px 15px;
+	border-radius: 50px;
+	margin: 30px auto auto auto;
+	text-align: center;
+	width: 60px;
+}
+
+
+.back-top h4 {
+	font-size: 16px;
+	font-weight: 900;
+}
+
+.back-top-catalogo h4 {
+	font-size: 16px;
+	font-weight: 900;
+}
+
+
 .titulo {display: none}
 
 
@@ -106,7 +142,7 @@ h4 {
 
 
 .descripte {
-	width: 400px;
+	width: 450px;
 	text-align: center;
 	display: inline-block;
 	color: white;
@@ -413,6 +449,15 @@ width: 310px;
 
 
 /*NUESTROS TE*/
+
+.flex-nav-prev {
+	display: block;
+}
+
+.flex-nav-next {
+	display: block;
+}
+
 
 .header-nuestrote{
 	padding: 90px 20px 0 50px;
