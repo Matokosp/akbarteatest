@@ -3,6 +3,10 @@
 
 
 @media (min-width: 1200px) {
+	
+.dots  {
+	top: 90%;
+}
 
 .grid-nuestrostes {
 	display: grid;
