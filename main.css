@@ -474,6 +474,15 @@ CONOCENOS*/
 
 /*TIMELINE DEL MAL*/
 
+.timeline-responsive {
+	width: 100%;
+}
+
+
+
+
+
+
 .item1 { grid-area: number1; }
 .item2 { grid-area: number2; }
 .item3 { grid-area: number3; }
@@ -488,6 +497,9 @@ CONOCENOS*/
 .item12 { grid-area: content5; }
 .item13 { grid-area: content6; }
 
+.grid-containerhist {
+	display: none;
+}
 
 .grid-containerhist {
   display: grid;
@@ -527,10 +539,9 @@ CONOCENOS*/
 	display: none;
 }
 
-
-
-
-
+.grid-containerhist {
+	display: none;
+}
 
 
 

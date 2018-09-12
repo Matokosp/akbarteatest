@@ -255,7 +255,9 @@ width: 300px;
 
 
 /*CONOCENOS*/
-
+.timeline-responsive {
+	display: none;
+}
 
 .fondoconoce1 {
 	background-image: url('images/fondoresfull768.jpg');
@@ -278,7 +280,17 @@ width: 300px;
 }
 
 .grid-containerhist {
-	padding: 40px 40px 0 30px;
+		  display: grid;
+	  grid-template-areas:
+	    'number1 arrow content1 content1 content1'
+	    'number2 arrow content2 content2 content2'
+	    'number3 arrow content3 content3 content3'
+	    'number4 arrow content4 content4 content4'
+	    'number5 arrow content5 content5 content5'
+	    'number6 arrow content6 content6 content6';
+	  grid-gap: 40px 1px;
+	  background-color: none;
+	  padding: 40px 40px 0 30px;
 }
 
 .grid-containerhist p{
