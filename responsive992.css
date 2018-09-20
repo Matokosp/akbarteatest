@@ -360,6 +360,7 @@ width: 310px;
 .grid-containerhist p{
 	font-size: 1.6em;
 	text-align: left;
+	padding: 0 5px 0 10px;
 }
 
 .griditemnumber {
