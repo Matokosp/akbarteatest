@@ -389,12 +389,12 @@ width: 310px;
 .grid-premios-wide {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 0px 0px;
   background-color: none;
   text-align: center;
   width: 100%;
-  padding: 0 15vw 0 15vw;
+  padding: 0 10vw;
 }
 
 .itempremios-wide {
@@ -647,6 +647,23 @@ width: 310px;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-row-gap: 40px;
 	vertical-align: middle;
+}
+
+
+.franquicias {
+	text-align: center;
+}
+
+.franquicias .lista-tiendas {
+	padding: 0 30vw;
+}
+
+.franquicias p {
+	font-size: 1.1em;
+}
+
+.franquicias b {
+	font-size: 20px;
 }
 
 
