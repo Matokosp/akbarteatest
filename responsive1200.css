@@ -35,6 +35,15 @@
 	padding: 0 50px 0 50px;
 }
 
+
+.descripcion-te {
+	padding: 15px 30px 20px 0;
+}
+
+
+
+
+
 .fondocatalogo {
 	background-image: url('images/portada-catalogo-1200.jpg');
 	background-size: cover;

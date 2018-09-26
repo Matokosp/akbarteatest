@@ -194,6 +194,23 @@ h4 {
 	padding: 0 70px 0 70px;
 }
 
+
+
+
+
+.descripcion-te {
+	padding: 15px 30px 40px 0;
+}
+
+.descripcion-te p {
+	font-size: 1.3em;
+}
+
+
+
+
+
+
 .fondocatalogo {
 	background-image: url('images/portada-catalogo-1440.jpg');
 	background-size: cover;
