@@ -844,7 +844,7 @@ CONOCENOS*/
 
 .grid-tiendas  {
 	display: grid;
-	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-rows: 1 1 1;
 	grid-row-gap: 60px;
 }
 
@@ -888,6 +888,12 @@ CONOCENOS*/
 }
 
 
+
+.franquicias {
+	padding: 60px 30px;
+}
+
+
 .container-links-tiendas {
 	padding: 0 30px 40px 30px;
 }
@@ -908,6 +914,10 @@ CONOCENOS*/
 .logo-largo {
 	width: 250px;
 	vertical-align: middle;
+}
+
+.logo-tiendas-bajo {
+	width: 125px;
 }
 
 
