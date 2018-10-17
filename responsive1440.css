@@ -115,7 +115,7 @@ h4 {
 }
 
 .conocecontent-header {
-    padding: 25vh 40px 0 0px;
+    padding: 17vh 40px 0 0px;
     width: 35vw;
 }
 
@@ -224,13 +224,13 @@ h4 {
 
 
 .catalogoicon {
-	width: 140px;
-	transition: width 1s;
+	height: 120px;
+	transition: height 1s;
 }
 
 .catalogoicon:hover {
-	width: 170px;
-	transition: width 1s;
+	height: 130px;
+	transition: height 1s;
 }
 
 .fotos-tes {

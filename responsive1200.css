@@ -57,14 +57,18 @@
 	width: 100%;
 }
 
+.catalogo-content {
+	padding: 250px 0 0 0;
+}
+
 .catalogoicon {
-	width: 110px;
-	transition: width 1s;
+	height: 120px;
+	transition: height 1s;
 }
 
 .catalogoicon:hover {
-	width: 140px;
-	transition: width 1s;
+	height: 130px;
+	transition: height 1s;
 }
 
 
