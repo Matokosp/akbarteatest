@@ -132,8 +132,16 @@ h4 {
 
 
 .grid-containerhist {
-  padding: 40px 80px 0 80px;
-  grid-gap: 30px 30px;
+  padding: 40px 50px 0 50px;
+  grid-gap: 20px 0px;
+}
+
+.grid-containerhist p{
+	font-size: 1.3em;
+}
+
+.timeline__link a {
+	font-size: 11px;
 }
 
 /*PREMIOS*/

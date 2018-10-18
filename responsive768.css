@@ -259,6 +259,29 @@ width: 300px;
 	display: none;
 }
 
+.timeline__link {
+	display: block;
+	margin: 0px;
+}
+
+.leon__section {
+	padding: 0 20px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.leon__section p {
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	width: 250px;
+	font-size: 0.95em;
+}
+
+.leon-icon {
+	width: 80px;
+}
+
 .fondoconoce1 {
 	background-image: url('images/fondoresfull768.jpg');
 	background-size: cover;

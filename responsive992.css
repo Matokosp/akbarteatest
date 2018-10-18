@@ -358,9 +358,22 @@ width: 310px;
 }
 
 .grid-containerhist p{
-	font-size: 1.6em;
+	font-size: 1.4em;
 	text-align: left;
 	padding: 0 5px 0 10px;
+}
+
+.timeline__link {
+	margin: 10px 0 0 0;
+}
+
+.timeline__link a {
+	font-size: 10px;
+	padding: 5px 5px;
+}
+
+.leon__section {
+	text-align: right;
 }
 
 .griditemnumber {
