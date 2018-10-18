@@ -526,6 +526,13 @@ CONOCENOS*/
 .item11 { grid-area: content4; }
 .item12 { grid-area: content5; }
 .item13 { grid-area: content6; }
+.item14 {grid-area: links3}
+.item15 {grid-area: links4}
+
+
+.item14, .item15 {
+	display: none;
+}
 
 .grid-containerhist {
 	display: none;

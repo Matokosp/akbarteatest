@@ -344,14 +344,21 @@ width: 310px;
 
 /*TIMELINE*/
 
+.item14, .item15 {
+	display: block;
+}
 
+.grid-containerhist {
+	display: block;
+}
 
 .grid-containerhist {
   display: grid;
   grid-template-areas:
     'number1 number2 number3 number4 number5 number6'
     'arrow arrow arrow arrow arrow arrow'
-    'content1 content2 content3 content4 content5 content6';
+    'content1 content2 content3 content4 content5 content6'
+    'links1 links2 links3 links4 links5 links6';
   grid-gap: auto;
   background-color: none;
   padding: 40px 40px 0 40px;
@@ -363,13 +370,17 @@ width: 310px;
 	padding: 0 5px 0 10px;
 }
 
+.timeline__link--tablets {
+	display: none;
+}
+
 .timeline__link {
-	margin: 10px 0 0 0;
+	margin: 0px 10px;
 }
 
 .timeline__link a {
 	font-size: 10px;
-	padding: 5px 5px;
+	padding: 3px 5px;
 }
 
 .leon__section {
