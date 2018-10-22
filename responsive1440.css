@@ -269,6 +269,11 @@ h4 {
     width: 35vw;
 }
 
+.lista-tiendas h4 {
+	font-size: 2em;
+	text-decoration: underline;
+}
+
 
 .grid-tiendas  {
 	grid-row-gap: 20px;

@@ -90,6 +90,22 @@ font-size: 1.5em;
 font-size: 1.5em;
 }
 
+.contacto-info {
+	position: relative;
+	width: 500px;
+	display: inline-block;
+	text-align: center;
+}
+
+.mail-icon-item {
+	position: absolute;
+	left: 35%;
+}
+
+.contacto-item-mail {
+	margin-top: 90px;
+}
+
 
 .mail-icon {
 	width: 130px;

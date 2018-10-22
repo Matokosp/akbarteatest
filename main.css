@@ -919,6 +919,12 @@ CONOCENOS*/
 	padding: 0 0 0 20px;
 }
 
+.lista-tiendas h4 {
+	font-size: 1.6em;
+	text-decoration: underline;
+}
+
+
 .lista-tiendas li {
 	padding-top: 20px;
 	font-size: 0.9em;

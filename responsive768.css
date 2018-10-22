@@ -442,6 +442,10 @@ width: 300px;
 	padding: 0 0 0 30vw;
 }
 
+.lista-tiendas h4 {
+	font-size: 1.9em;
+}
+
 .grid-tiendas-item {
 	padding: 0 30px 0 30px;
 }
