@@ -1,0 +1,119 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>PMD SA Distribuidora</title>
+    <meta name="author" content="Matias Salinas" />
+    <meta name="description" content="Distribuidora PMD SA" />
+    <meta name="keywords"  content="distribuidora pmdsa, pmdsa, akbar chile, distribuidora akbar chile" />
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+     <link rel="stylesheet" type="text/css" href="main.css" />
+     <link rel="stylesheet" type="text/css" href="menues.css" />
+     <link rel="stylesheet" type="text/css" href="responsive321.css" />
+     <link rel="stylesheet" type="text/css" href="responsive768.css" />
+     <link rel="stylesheet" type="text/css" href="responsive992.css" />
+     <link rel="stylesheet" type="text/css" href="responsive1200.css" />
+     <link rel="stylesheet" type="text/css" href="responsive1440.css" />
+     <link rel="stylesheet" type="text/css" href="pmdsa.css">
+     <link rel="stylesheet" type="text/css" href="flexslider.css" />
+
+     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,700i,900" rel="stylesheet">
+
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+</head>
+<body>
+	<section class="pmdsa__intro">
+		<div class="intro__logos">
+			<img src="images/logo-pmdsa.png">
+			<h2>PMD S.A</h2>
+		</div>
+		<p>Somos una distribuidora e importadora de bebidas y alimentos
+		   con venta a nivel nacional con locales propios y franquisiados.
+		   Iniciamos operaciones a partir del año 2008, representando el té
+		   Akbar en Chile. PMD está conformada por la marca Akbar tea,
+		   Tacos , yerba mate Matecito. También distribuimos grandes
+		   volumunes de abarrotes con proveedores nacionales.</p>
+	</section>
+
+	<section class="gallery__section">
+		<article class="gallery__item">
+			<h3>Akbar Tea</h3>
+			<img src="images/pmdsa-akbar.jpg">
+		</article>
+		<article class="gallery__item">
+			<h3>Tacos (Masas)</h3>
+			<div class="flexslider">
+                  <ul class="slides">
+                        <li>
+                            <img src="images/pmdsa-tacos.jpg">
+                        </li>
+                        <li>
+                            <img src="images/pmdsa-tacos-2.jpg">
+                        </li>
+                        <li>
+                            <img src="images/pmdsa-tacos-3.jpg">
+                        </li>           
+                  </ul>
+            </div>
+		</article>
+		<article class="gallery__item">
+			<h3>Tacos (Conos)</h3>
+			<img src="images/pmdsa-tacos-conos.jpg">
+		</article>
+		<article class="gallery__item">
+			<h3>Matecito&nbsp;(Yerba&nbsp;Mate)</h3>
+			<img src="images/matecito.jpg">
+		</article>
+	</section>
+
+	<footer class="footer__pmdsa">
+		<a href="mailto:akbarchile@pmdsa.cl">
+			<div class="footer__background">
+				<img class="footer__mail-icon" src="images/pmdsa-mail.png">
+				<h4 class="footer__text">Contáctanos</h4>
+			</div>
+		</a>
+	</footer>
+
+
+
+	<!-- JQUERY -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+    <!-- SCRIPT SLIDERS -->
+
+
+	  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+
+	  <script defer src="js/jquery.flexslider.js"></script>
+
+	  <script type="text/javascript">
+	    $(function(){
+	      SyntaxHighlighter.all();
+	    });
+
+	    $(window).load(function(){
+	      $('.flexslider').flexslider({
+	        slideshow: false,
+	        animation: "slide",
+	        start: function(slider){
+	          $('body').removeClass('loading');
+	        }
+	      });
+	    });
+	  </script>
+
+	  <!-- Syntax Highlighter -->
+	  <script type="text/javascript" src="js/shCore.js"></script>
+	  <script type="text/javascript" src="js/shBrushXml.js"></script>
+	  <script type="text/javascript" src="js/shBrushJScript.js"></script>
+
+</body>
+</html>

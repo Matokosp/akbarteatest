@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+p {
+	color: #000;
+}
+
+h2 {
+	color: #000;
+	font-weight: 900;
+}
+
+h3 {
+	color: #000;
+	font-size: 1.1em;
+}
+
+.pmdsa__intro {
+	margin-top: 30px;
+	text-align:center;
+	padding: 0 30px;
+	width: 100vw;
+}
+.pmdsa__intro img {
+	width: 150px;
+}
+.pmdsa__intro p {
+	margin-top: 20px;
+}
+
+
+
+.gallery__section {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100vw;
+	margin: 20px 0;
+}
+
+.gallery__item {
+	width: 50%;
+	position: relative;
+	text-align: center;
+	padding: 0 10px;
+}
+
+.gallery__item h3 {
+	position: relative;
+	top: 25px;
+	color: #fff;
+	background-color: #3c3c3b;
+	z-index: 99;
+	width: 100%;
+	padding: 4px 0;
+}
+
+.gallery__item img {
+	width: 100%;
+	position: relative;
+}
+
+.footer__pmdsa {
+	position: fixed;
+	bottom: 10px;
+	right: 15px;
+	z-index: 99;
+}
+
+.footer__background {
+	background-image: url(images/pmdsa-contact.png);
+	background-size: cover;
+	background-position: center;
+	width: 90px;
+	height: 100px;
+	text-align: center;
+}
+
+.footer__mail-icon {
+	width: 50px;
+	margin-top: 25px;
+}
+
+.footer__text {
+	font-size: 0.7em;
+	margin-top: 5px;
+}
+
+
+
+@media (min-width: 992px) {
+
+.footer__background {
+	width: 120px;
+	height: 130px;
+}
+
+.footer__mail-icon {
+	width: 75px;
+	margin-top: 30px;
+}
+
+.footer__text {
+	font-size: 0.8em;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+
+.pmdsa__intro {
+	padding-top: 90px;
+	margin: 0;
+}
+
+.intro__logos {
+	display: inline-block;
+	width: 40%;
+}
+
+.pmdsa__intro p {
+	display: inline-block;
+	width: 40%;
+	text-align: left;
+}
+
+.gallery__section {
+	margin: 100px 0 0 0;
+}
+
+.gallery__item {
+	width: 25%;
+}
+
+}
+
