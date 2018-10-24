@@ -11,8 +11,6 @@
 
 
 
-
-
 .fondoconoce1 {
 	background-image: url('images/fondoresfull1200.jpg');
 	background-size: cover;
@@ -20,11 +18,25 @@
 	position: relative;
 }
 
+/*CONOCENOS*/
 
+.conocecontent {
+	padding: 15vw 50px;
+	margin-left: 5vw;
+}
 
+.section-mundi {
+	padding: 5vw 0;
+	margin-right: 5vw;
+}
 
+.mundi-text {
+	width: 290px;
+}
 
-
+.mundi {
+	width: 500px;
+}
 
 .grid-nuestrostes {
 	display: grid;
@@ -39,8 +51,6 @@
 .descripcion-te {
 	padding: 15px 30px 20px 0;
 }
-
-
 
 
 

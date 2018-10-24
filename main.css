@@ -447,13 +447,17 @@ CONOCENOS*/
 
 .section-mundi {
 	text-align: center;
+	margin-top: 30px;
 }
 
 .mundi {
-	width: 300px;
+	width: 280px;
 	position: relative;
-	margin-top: 30px;
-	}
+}
+
+.mundi-text {
+	width: 190px;
+}
 
 
 .conocecontent {

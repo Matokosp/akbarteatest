@@ -301,12 +301,20 @@ width: 300px;
 	position: relative;
 }
 
+.section-mundi {
+	text-align: center;
+}
 
 .mundi {
 	width: 500px;
-	position: relative;
-	margin-top: 30px;
-	}
+	margin-top: 0px;
+}
+
+.mundi-text {
+	display: block;
+	margin: 0 auto;
+	width: 300px;
+}
 
 
 

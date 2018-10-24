@@ -109,24 +109,28 @@ h4 {
 	background-image: url('images/fondoresfull1440.jpg');
 }
 
-.conocecontent {
-    padding: 100px 40px 0 80px;
-    width: 35vw;
+.conocecontent-header p {
+    font-size: 1.7em;
 }
 
-.conocecontent-header {
-    padding: 17vh 40px 0 0px;
-    width: 35vw;
+.conocecontent {
+	padding: 20vh 50px;
+	margin-left: 5vw;
 }
 
 .section-mundi {
-	padding: 100px 40px 0 0;
+	padding: 5vw 0;
+	margin-right: 5vw;
+}
+
+.mundi-text {
+	width: 310px;
 }
 
 .mundi {
-	margin: 0;
-	width: 45vw;
+	width: 570px;
 }
+
 
 /*TIMELINE*/
 
