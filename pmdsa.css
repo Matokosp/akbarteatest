@@ -118,13 +118,14 @@ h3 {
 }
 
 .pmdsa__intro p {
+	font-size: 1.2em;
 	display: inline-block;
 	width: 40%;
 	text-align: left;
 }
 
 .gallery__section {
-	margin: 100px 0 80px 0;
+	margin: 100px 0 0px 0;
 }
 
 .gallery__item {
