@@ -104,7 +104,7 @@ h4 {
 	padding-bottom: 30px;
 }
 
-    
+
 .bkg1 {
      background: url(images/bkg1992.jpg) no-repeat center center;
      background-size: cover;
@@ -112,7 +112,7 @@ h4 {
        top: 0;
      bottom: 0;
      height: 100vh;
-     z-index: -10;   
+     z-index: -10;
 
 }
 
@@ -123,7 +123,7 @@ h4 {
        top: 0;
      bottom: 0;
      height: 100vh;
-     z-index: -10;   
+     z-index: -10;
 
 }
 
@@ -135,7 +135,7 @@ h4 {
        top: 0;
      bottom: 0;
      height: 100vh;
-     z-index: -10;   
+     z-index: -10;
 
 }
 
@@ -340,8 +340,6 @@ width: 310px;
 }
 
 
-
-
 /*TIMELINE*/
 
 .item14, .item15 {
@@ -434,12 +432,6 @@ width: 310px;
 	width: 90px;
 }
 
-
-
-
-
-
-
 /*CONOCE MAS SOBRE*/
 
 
@@ -464,14 +456,6 @@ width: 310px;
 .logomarca {
 	height: 70px;
 }
-
-
-
-
-
-
-
-
 
 
 /*NUESTROS TE*/
@@ -658,7 +642,7 @@ width: 310px;
 }
 
 .lista-tiendas {
-	padding: 0 0 0 0;
+	padding: 0;
 }
 
 .container-links-tiendas {
@@ -673,7 +657,6 @@ width: 310px;
 	grid-row-gap: 40px;
 	vertical-align: middle;
 }
-
 
 .franquicias {
 	text-align: center;

@@ -195,7 +195,7 @@ text-align: center;
        top: 0;
      bottom: 0;
      height: 100vh;
-     z-index: -10;   
+     z-index: -10;
 
 }
 
@@ -206,7 +206,7 @@ text-align: center;
        top: 0;
      bottom: 0;
      height: 100vh;
-     z-index: -10;   
+     z-index: -10;
 
 }
 
@@ -217,7 +217,7 @@ text-align: center;
        top: 0;
      bottom: 0;
      height: 100vh;
-     z-index: -10;   
+     z-index: -10;
 
 }
 
@@ -440,7 +440,7 @@ CONOCENOS*/
 	background-image: url('images/fondoresfull.jpg');
 	background-size: cover;
 	background-position: center center;
-	
+
 	position: relative;
 }
 
@@ -711,7 +711,7 @@ CONOCENOS*/
 
 .grid-item-nuestrostes {
 	width: 100%;
-	
+
 	text-align: center;
 }
 
@@ -918,24 +918,59 @@ CONOCENOS*/
 }
 
 .lista-tiendas {
+	display: inline-block;
 	list-style-type: none;
 	text-align: left;
 	padding: 0 0 0 20px;
+	vertical-align: top;
 }
 
 .lista-tiendas h4 {
-	font-size: 1.6em;
-	text-decoration: underline;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	margin-left: 25px;
+	margin-bottom: 2px;
 }
 
-
 .lista-tiendas li {
-	padding-top: 20px;
 	font-size: 0.9em;
 }
 
-.lista-tiendas b {
-	font-size: 18px;
+.lista-tiendas-item {
+	margin-top: 20px;
+}
+
+.lista-tiendas-tienda b {
+	font-size: 1.5em;
+}
+
+.lista-tiendas-separation {
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+	margin-bottom: 15px;
+}
+
+.lista-tiendas-tienda {
+	margin: 15px 0;
+}
+
+.lista-tiendas-tienda img {
+	display: inline-block;
+	width: 5%;
+	vertical-align: top;
+}
+
+.lista-tiendas-tienda-text {
+	width: 90%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 0 5px;
+}
+
+.lista-tiendas-tienda-text h5 {
+	font-size: 1.2rem;
+	margin: 0;
 }
 
 .icon-tiendas  {
